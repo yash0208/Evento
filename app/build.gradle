@@ -38,4 +38,25 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.firebaseui:firebase-ui-database:8.0.2'
+    implementation 'com.google.mlkit:translate:17.0.1'    // FirebaseUI for Cloud Firestore
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.2'
+
+    // FirebaseUI for Firebase Auth
+    implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
+    implementation 'com.squareup.picasso:picasso:2.8'
+    // FirebaseUI for Cloud Storage
+    implementation 'com.firebaseui:firebase-ui-storage:8.0.2'
+    implementation 'com.google.firebase:firebase-database:20.1.0'
+    implementation 'com.google.firebase:firebase-firestore:24.4.2'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.android.gms:play-services-auth:20.4.1'
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'org.jsoup:jsoup:1.15.4'
 }

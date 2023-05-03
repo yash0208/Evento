@@ -2,6 +2,7 @@ package com.aryansh.evento;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -37,12 +38,14 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseUser user = mAuth.getCurrentUser();
                 if(user!=null){
                     Intent o=new Intent(MainActivity.this,Login.class);
-                    startActivity(o);
+                    ActivityOptions options =
+                            ActivityOptions.makeCustomAnimation(getApplicationContext(), R.anim.fade_in, R.anim.fade_out);
+                    startActivity(o,options.toBundle());
                 }
                 else {
                     login();
                 }
             }
-        },500);
+        },5000);
     }
 }
